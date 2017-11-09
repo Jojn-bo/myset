@@ -8,11 +8,12 @@ class MyTCPHandler(socketserver.BaseRequestHandler):
                 self.data = self.request.recv(1024).strip()
                 print('{} wrote:'.format(self.client_address[0]))
                 print('self.data:',self.data)
-                cmd_dic = json.dumps(self.data).encode()
-                print('cmd_dic:',cmd_dic)
+                cmd_dic = json.loads(self.data.decode())
+                action = cmd_dic['action']
+                # print('cmd_dic:',cmd_dic)
                 #action = cmd_dic['action']
-                if hasattr(self, cmd_dic):
-                    func = getattr(self, cmd_dic['action'])
+                if hasattr(self, action):
+                    func = getattr(self, action)
                     func(cmd_dic)
 
             except ConnectionResetError as e:
@@ -28,8 +29,9 @@ class MyTCPHandler(socketserver.BaseRequestHandler):
         else:
             f = open(filename, 'wb')
 
-        cmd_dic['iscat'] = True
-        self.request.send(json.dumps(cmd_dic).encode())
+        # cmd_dic['iscat'] = True
+        # self.request.send(json.dumps(cmd_dic).encode())
+        self.request.send(b'200 ok')
         receive_size = 0
         while receive_size < filesize:
             data = self.request.recv(1024)
