@@ -1,0 +1,1194 @@
+1509071726938	geckodriver	INFO	geckodriver 0.19.0
+1509071726951	geckodriver	INFO	Listening on 127.0.0.1:63326
+1509071729093	mozrunner::runner	INFO	Running command: "E:\\QQ\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\yanxin\\AppData\\Local\\Temp\\rust_mozprofile.1jcBMIbURORU"
+1509071729499	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///E:/QQ/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1509071730141	Marionette	INFO	Enabled via --marionette
+1509071734265	Marionette	INFO	Listening on port 63340
+1509071734448	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509071734523	Marionette	DEBUG	Register listener.js for window 6442450945
+1509071734744	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509071735023	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509071735023	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509071735613	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.baidu.com/"
+1509071735866	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.baidu.com/"
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+[Child 5668] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5668] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+1509075299966	geckodriver	INFO	geckodriver 0.19.0
+1509075299978	geckodriver	INFO	Listening on 127.0.0.1:4677
+1509075301969	mozrunner::runner	INFO	Running command: "E:\\QQ\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\yanxin\\AppData\\Local\\Temp\\rust_mozprofile.lIEU7FMvHV6d"
+1509075302736	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///E:/QQ/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1509075303443	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+[Child 12948] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12948] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1509075309935	Marionette	INFO	Listening on port 4686
+1509075310335	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509075310372	Marionette	DEBUG	Register listener.js for window 4294967297
+1509075310471	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509075310677	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509075310678	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509075310746	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.baidu.com/"
+1509075311021	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.baidu.com/"
+1509075311739	Marionette	DEBUG	Received DOM event "beforeunload" for "http://www.baidu.com/"
+1509075311842	Marionette	DEBUG	Received DOM event "pagehide" for "http://www.baidu.com/"
+1509075311843	Marionette	DEBUG	Received DOM event "unload" for "http://www.baidu.com/"
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: http://s1.bdstatic.com/r/www/cache/static/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+1509075312644	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.baidu.com/s?wd=selenium&ie=utf-8&rsv_op=aZ5VW18a5NgIPZ5hOb3UZ8YPTY0YdKSafJVM79LISaMbXgTKKg0QY5458LV91hfSQ7IXbLObdZN1M82O1Q1L2W19I6g4MKa4&tn=78040160_26_pg&ch=12&rsv_su=R6ZQbOJWTYKUZXXPaOJdPhQUWc4fPYTbU8K0V3OfMQ90LKZQgef33J7gPMORPe4IK1956d17TfXebXSP2dgUhSXQPYZ4KYJY"
+1509075312718	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.baidu.com/s?wd=selenium&ie=utf-8&rsv_op=aZ5VW18a5NgIPZ5hOb3UZ8YPTY0YdKSafJVM79LISaMbXgTKKg0QY5458LV91hfSQ7IXbLObdZN1M82O1Q1L2W19I6g4MKa4&tn=78040160_26_pg&ch=12&rsv_su=R6ZQbOJWTYKUZXXPaOJdPhQUWc4fPYTbU8K0V3OfMQ90LKZQgef33J7gPMORPe4IK1956d17TfXebXSP2dgUhSXQPYZ4KYJY"
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+[Child 836] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13424] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+E_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///E:/QQ/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1509075335844	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+[Child 14640] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1509075338892	Marionette	INFO	Listening on port 4779
+1509075339727	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509075339778	Marionette	DEBUG	Register listener.js for window 4294967297
+1509075339803	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509075339842	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509075339843	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509075339899	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.baidu.com/"
+1509075340130	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.baidu.com/"
+1509075340230	Marionette	DEBUG	Received DOM event "beforeunload" for "http://www.baidu.com/"
+1509075340310	Marionette	DEBUG	Received DOM event "pagehide" for "http://www.baidu.com/"
+1509075340310	Marionette	DEBUG	Received DOM event "unload" for "http://www.baidu.com/"
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: http://s1.bdstatic.com/r/www/cache/static/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+1509075341069	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.baidu.com/s?wd=selenium&ie=utf-8&rsv_op=7YfYhcbdRhfVKJc8fVbgIIWKQJ9ZUYS78Q5Qfa16VXfbdL1XV2W9I2hNZ9TV52SISW7ST6LNTZL582URgMT1bf7hZeX4PJ6b&tn=78040160_26_pg&ch=12&rsv_su=g8aQOUVLQ6a5QL9gJTSXL9c66UQ1UMJOJ4LOXZ2U2aVZeZdhbYMNc39PX4YdTLg0O4N4NUbOIhYb91OYTab4cK2Wbhd5LW2T"
+1509075341147	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.baidu.com/s?wd=selenium&ie=utf-8&rsv_op=7YfYhcbdRhfVKJc8fVbgIIWKQJ9ZUYS78Q5Qfa16VXfbdL1XV2W9I2hNZ9TV52SISW7ST6LNTZL582URgMT1bf7hZeX4PJ6b&tn=78040160_26_pg&ch=12&rsv_su=g8aQOUVLQ6a5QL9gJTSXL9c66UQ1UMJOJ4LOXZ2U2aVZeZdhbYMNc39PX4YdTLg0O4N4NUbOIhYb91OYTab4cK2Wbhd5LW2T"
+1509075341157	Marionette	INFO	New connections will no longer be accepted
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 1660] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1509078632882	geckodriver	INFO	geckodriver 0.19.0
+1509078632895	geckodriver	INFO	Listening on 127.0.0.1:5949
+1509078634884	mozrunner::runner	INFO	Running command: "E:\\QQ\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\yanxin\\AppData\\Local\\Temp\\rust_mozprofile.dQV6Fm6muW05"
+1509078635706	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///E:/QQ/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1509078636527	Marionette	INFO	Enabled via --marionette
+1509078639296	Marionette	INFO	Listening on port 5956
+1509078640151	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509078640197	Marionette	DEBUG	Register listener.js for window 6442450945
+1509078640225	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509078640247	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509078640247	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509078640323	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.baidu.com/"
+1509078640477	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.baidu.com/"
+1509078640628	Marionette	DEBUG	Received DOM event "beforeunload" for "http://www.baidu.com/"
+1509078640715	Marionette	DEBUG	Received DOM event "pagehide" for "http://www.baidu.com/"
+1509078640715	Marionette	DEBUG	Received DOM event "unload" for "http://www.baidu.com/"
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: http://s1.bdstatic.com/r/www/cache/static/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+1509078641489	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.baidu.com/s?wd=selenium&ie=utf-8&rsv_op=WbJf7dgTUPgh8O8eY9Y0JbJLccYY38ZhcT0RJ8c45Md9VUdN25hJLKRf9bLJ1fhO9T93409c1PffS4chIYSU25gdV9XX6RM0&tn=78040160_26_pg&ch=12&rsv_su=POYb417I3TNbL1QPYVL2aZ9P1JT93cS19P8JTZeIM4g82UVWbXL41SPf74I0fUcL05238PSLdg3bV9QJd0h0ZR0ZOa1YYZfg"
+1509078641543	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.baidu.com/s?wd=selenium&ie=utf-8&rsv_op=WbJf7dgTUPgh8O8eY9Y0JbJLccYY38ZhcT0RJ8c45Md9VUdN25hJLKRf9bLJ1fhO9T93409c1PffS4chIYSU25gdV9XX6RM0&tn=78040160_26_pg&ch=12&rsv_su=POYb417I3TNbL1QPYVL2aZ9P1JT93cS19P8JTZeIM4g82UVWbXL41SPf74I0fUcL05238PSLdg3bV9QJd0h0ZR0ZOa1YYZfg"
+1509078641549	Marionette	INFO	New connections will no longer be accepted
+1509078659152	geckodriver	INFO	geckodriver 0.19.0
+1509078659164	geckodriver	INFO	Listening on 127.0.0.1:6032
+1509078661218	mozrunner::runner	INFO	Running command: "E:\\QQ\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\yanxin\\AppData\\Local\\Temp\\rust_mozprofile.0zThHAe6dlvm"
+1509078661604	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///E:/QQ/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1509078662339	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+[Child 17948] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17948] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1509078664861	Marionette	INFO	Listening on port 6039
+1509078664886	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509078664921	Marionette	DEBUG	Register listener.js for window 6442450945
+1509078664958	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509078664993	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509078664994	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509078665076	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.baidu.com/"
+1509078665280	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.baidu.com/"
+1509078665438	Marionette	DEBUG	Received DOM event "beforeunload" for "http://www.baidu.com/"
+1509078665507	Marionette	DEBUG	Received DOM event "pagehide" for "http://www.baidu.com/"
+1509078665508	Marionette	DEBUG	Received DOM event "unload" for "http://www.baidu.com/"
+1509078666230	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.baidu.com/s?wd=selenium&ie=utf-8&rsv_op=dUTfNJLa3YOO2R19S97VZP9hZhdQPbTS6LT5ccW93YJI31ePb4M7K7KRIfe2a6gcObYg3ceXSPTY47S4Z0N5ZPMMI0S7TMaS&tn=78040160_26_pg&ch=12&rsv_su=76UVWa284W5eWQXJQ2ZYZ4h2hPPeTgYcK7Vc817bZd1WNVf3R7K0Ref2JRRUJb6bSW19ROTQhNfbWIe43aJ39df637f26UIZ"
+1509078666676	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.baidu.com/s?wd=selenium&ie=utf-8&rsv_op=dUTfNJLa3YOO2R19S97VZP9hZhdQPbTS6LT5ccW93YJI31ePb4M7K7KRIfe2a6gcObYg3ceXSPTY47S4Z0N5ZPMMI0S7TMaS&tn=78040160_26_pg&ch=12&rsv_su=76UVWa284W5eWQXJQ2ZYZ4h2hPPeTgYcK7Vc817bZd1WNVf3R7K0Ref2JRRUJb6bSW19ROTQhNfbWIe43aJ39df637f26UIZ"
+1509078666689	Marionette	INFO	New connections will no longer be accepted
+1509082926588	geckodriver	INFO	geckodriver 0.19.0
+1509082926601	geckodriver	INFO	Listening on 127.0.0.1:8380
+1509082928671	mozrunner::runner	INFO	Running command: "E:\\QQ\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\yanxin\\AppData\\Local\\Temp\\rust_mozprofile.0diCC9wtIKPe"
+1509082929054	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///E:/QQ/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1509082929669	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+[Child 3248] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3248] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1509082932414	Marionette	INFO	Listening on port 8389
+1509082932834	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509082932867	Marionette	DEBUG	Register listener.js for window 6442450945
+1509082932893	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509082932915	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509082932915	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509082932969	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.baidu.com/"
+1509082933155	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.baidu.com/"
+1509082933304	Marionette	DEBUG	Received DOM event "beforeunload" for "http://www.baidu.com/"
+1509082933397	Marionette	DEBUG	Received DOM event "pagehide" for "http://www.baidu.com/"
+1509082933398	Marionette	DEBUG	Received DOM event "unload" for "http://www.baidu.com/"
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: http://s1.bdstatic.com/r/www/cache/static/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+1509082934130	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.baidu.com/s?wd=selenium&ie=utf-8&rsv_op=KV7TX9Zhg9SY08LXM7MUTc3TMe2aMT0cT1Mf5ggILhWZW290MZgaWaLZW0YRfhO1ZIeJSad5ce1fMSKaTULRaP7V05f0OXZJ&tn=78040160_26_pg&ch=12&rsv_su=0W6T7XTW09Y0a66ZJbUUgX8STV76IPgQUYKZSKb7XTJ2dJWfOaZhU4d2QeIUQOfahf8ec0455JOc0d22M63YNa29McSb4bO5"
+1509082934216	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.baidu.com/s?wd=selenium&ie=utf-8&rsv_op=KV7TX9Zhg9SY08LXM7MUTc3TMe2aMT0cT1Mf5ggILhWZW290MZgaWaLZW0YRfhO1ZIeJSad5ce1fMSKaTULRaP7V05f0OXZJ&tn=78040160_26_pg&ch=12&rsv_su=0W6T7XTW09Y0a66ZJbUUgX8STV76IPgQUYKZSKb7XTJ2dJWfOaZhU4d2QeIUQOfahf8ec0455JOc0d22M63YNa29McSb4bO5"
+1509082934223	Marionette	INFO	New connections will no longer be accepted
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 17060] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1509083020060	geckodriver	INFO	geckodriver 0.19.0
+1509083020073	geckodriver	INFO	Listening on 127.0.0.1:8489
+1509083022128	mozrunner::runner	INFO	Running command: "E:\\QQ\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\yanxin\\AppData\\Local\\Temp\\rust_mozprofile.X0aBErgvGy0e"
+1509083022512	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///E:/QQ/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1509083023195	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+[Child 16676] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16676] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1509083025944	Marionette	INFO	Listening on port 8495
+1509083026297	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509083026341	Marionette	DEBUG	Register listener.js for window 6442450945
+1509083026365	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509083026383	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509083026383	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509083026449	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.baidu.com/"
+1509083026544	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.baidu.com/"
+1509083026821	Marionette	DEBUG	Received DOM event "beforeunload" for "http://www.baidu.com/"
+1509083026961	Marionette	DEBUG	Received DOM event "pagehide" for "http://www.baidu.com/"
+1509083026962	Marionette	DEBUG	Received DOM event "unload" for "http://www.baidu.com/"
+1509083027900	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.baidu.com/s?wd=selenium&ie=utf-8&rsv_op=5fIKUhhM3dKQTNI4M32beP1PO4a0UPVQ2Q8bh2gOPR7QWJOWWXXXS4705Vg9MI4XKY5XPdhVP7J69PPdZ3UIU38OhIZYYW2Y&tn=78040160_26_pg&ch=12&rsv_su=Q9gbaW9IJZf3cVhPU3QcLdTPaSf02Wd0eQ2JcdfJSQg8LOJO2Q6X6L9aROS02XgYba04Sh4hTMUPff4h3TeXd3cO84KdIdbL"
+1509083027990	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.baidu.com/s?wd=selenium&ie=utf-8&rsv_op=5fIKUhhM3dKQTNI4M32beP1PO4a0UPVQ2Q8bh2gOPR7QWJOWWXXXS4705Vg9MI4XKY5XPdhVP7J69PPdZ3UIU38OhIZYYW2Y&tn=78040160_26_pg&ch=12&rsv_su=Q9gbaW9IJZf3cVhPU3QcLdTPaSf02Wd0eQ2JcdfJSQg8LOJO2Q6X6L9aROS02XgYba04Sh4hTMUPff4h3TeXd3cO84KdIdbL"
+1509083027998	Marionette	INFO	New connections will no longer be accepted
+1509086398347	geckodriver	INFO	geckodriver 0.19.0
+1509086398359	geckodriver	INFO	Listening on 127.0.0.1:10036
+1509086400418	mozrunner::runner	INFO	Running command: "E:\\QQ\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\yanxin\\AppData\\Local\\Temp\\rust_mozprofile.9w8zoqVeLGKk"
+1509086401285	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///E:/QQ/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1509086401970	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+[Child 17708] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17708] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1509086404740	Marionette	INFO	Listening on port 10043
+1509086405671	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509086405701	Marionette	DEBUG	Register listener.js for window 6442450945
+1509086405729	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509086405763	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509086405764	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509086405830	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.baidu.com/"
+1509086405936	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.baidu.com/"
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 14356] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+[Child 17632] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1509086487798	geckodriver	INFO	geckodriver 0.19.0
+1509086487811	geckodriver	INFO	Listening on 127.0.0.1:10154
+1509086489880	mozrunner::runner	INFO	Running command: "E:\\QQ\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\yanxin\\AppData\\Local\\Temp\\rust_mozprofile.i48Thxdit800"
+1509086490267	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///E:/QQ/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1509086490809	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+[Child 18052] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 18052] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1509086493601	Marionette	INFO	Listening on port 10160
+1509086494048	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509086494081	Marionette	DEBUG	Register listener.js for window 6442450945
+1509086494149	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509086494177	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509086494177	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509086494250	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.baidu.com/"
+1509086494386	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.baidu.com/"
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+1509086816354	geckodriver	INFO	geckodriver 0.19.0
+1509086816366	geckodriver	INFO	Listening on 127.0.0.1:10336
+1509086818431	mozrunner::runner	INFO	Running command: "E:\\QQ\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\yanxin\\AppData\\Local\\Temp\\rust_mozprofile.F8Sm4M4tu3Dp"
+1509086819303	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///E:/QQ/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1509086819969	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+[Child 18100] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 18100] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1509086822575	Marionette	INFO	Listening on port 10343
+1509086822607	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509086822641	Marionette	DEBUG	Register listener.js for window 4294967297
+1509086822677	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509086822702	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509086822702	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509086822787	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.baidu.com/"
+1509086822889	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.baidu.com/"
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+[Child 11868] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11868] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1509086825505	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 15264] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+[Child 9864] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9864] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 17380] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1509095460853	geckodriver	INFO	geckodriver 0.19.0
+1509095460865	geckodriver	INFO	Listening on 127.0.0.1:13656
+1509095462904	mozrunner::runner	INFO	Running command: "E:\\QQ\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\yanxin\\AppData\\Local\\Temp\\rust_mozprofile.XWYKQq1Fck2n"
+1509095463906	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///E:/QQ/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1509095464598	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+[Child 19168] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 19168] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1509095467513	Marionette	INFO	Listening on port 13665
+1509095468175	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509095468215	Marionette	DEBUG	Register listener.js for window 6442450945
+1509095468236	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509095468246	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509095468246	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509095468246	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "6442450945"
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+[Child 17288] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17288] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1509095469551	Marionette	DEBUG	Register listener.js for window 8589934593
+1509095469609	Marionette	DEBUG	Check readyState "uninitialized for "about:blank"
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js, line 7: TypeError: a is not a function
+1509095470156	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "file:///C:/Users/yanxin/PycharmProjects/untitled1/day1/checkbox.html"
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 12788] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+[Child 10184] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10184] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1509095603562	geckodriver	INFO	geckodriver 0.19.0
+1509095603575	geckodriver	INFO	Listening on 127.0.0.1:13762
+1509095605656	mozrunner::runner	INFO	Running command: "E:\\QQ\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\yanxin\\AppData\\Local\\Temp\\rust_mozprofile.2wDiwKDo2SMM"
+1509095606456	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///E:/QQ/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1509095607102	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+[Child 15452] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15452] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1509095609960	Marionette	INFO	Listening on port 13768
+1509095610911	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509095610943	Marionette	DEBUG	Register listener.js for window 6442450945
+1509095610966	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509095610978	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509095610978	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509095610979	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "6442450945"
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+[Child 15956] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15956] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1509095611647	Marionette	DEBUG	Register listener.js for window 8589934593
+1509095611693	Marionette	DEBUG	Check readyState "uninitialized for "about:blank"
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js, line 7: TypeError: a is not a function
+1509095612182	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "file:///C:/Users/yanxin/PycharmProjects/untitled1/day1/checkbox.html"
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 18404] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 18404] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 18704] WARNING: pipe error: 232: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513
+[Child 18704] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 18704] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+[Child 16568] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16568] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1509096529081	geckodriver	INFO	geckodriver 0.19.0
+1509096529094	geckodriver	INFO	Listening on 127.0.0.1:14148
+1509096531189	mozrunner::runner	INFO	Running command: "E:\\QQ\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\yanxin\\AppData\\Local\\Temp\\rust_mozprofile.omwLPYuR1fik"
+1509096531961	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///E:/QQ/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1509096532563	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+[Child 19184] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 19184] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1509096535382	Marionette	INFO	Listening on port 14154
+1509096536440	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509096536474	Marionette	DEBUG	Register listener.js for window 4294967297
+1509096536563	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509096536574	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509096536575	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509096536575	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967297"
+1509096537079	Marionette	DEBUG	Register listener.js for window 8589934593
+1509096537125	Marionette	DEBUG	Check readyState "uninitialized for "about:blank"
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js, line 7: TypeError: a is not a function
+1509096537646	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "file:///C:/Users/yanxin/PycharmProjects/untitled1/day1/checkbox.html"
+1509096583897	geckodriver	INFO	geckodriver 0.19.0
+1509096583911	geckodriver	INFO	Listening on 127.0.0.1:14214
+1509096588452	mozrunner::runner	INFO	Running command: "E:\\QQ\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\yanxin\\AppData\\Local\\Temp\\rust_mozprofile.txE96a0KwsdL"
+1509096588917	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///E:/QQ/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1509096589562	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 15920] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+[Child 17800] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17800] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1509096592182	Marionette	INFO	Listening on port 14226
+1509096592612	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509096592661	Marionette	DEBUG	Register listener.js for window 6442450945
+1509096639911	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509096639924	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509096639924	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509096639925	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "6442450945"
+[Parent 15920] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+[Child 10380] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10380] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1509096640478	Marionette	DEBUG	Register listener.js for window 8589934593
+1509096640524	Marionette	DEBUG	Check readyState "uninitialized for "about:blank"
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js, line 7: TypeError: a is not a function
+1509096641057	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "file:///C:/Users/yanxin/PycharmProjects/untitled1/day1/checkbox.html"
+1509096666725	geckodriver	INFO	geckodriver 0.19.0
+1509096666738	geckodriver	INFO	Listening on 127.0.0.1:14302
+1509096668801	mozrunner::runner	INFO	Running command: "E:\\QQ\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\yanxin\\AppData\\Local\\Temp\\rust_mozprofile.XjK9roOf5LLn"
+1509096669190	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///E:/QQ/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1509096669811	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+[Child 18616] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 18616] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1509096672732	Marionette	INFO	Listening on port 14308
+1509096672963	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509096673008	Marionette	DEBUG	Register listener.js for window 6442450945
+1509096673042	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509096673054	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509096673055	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509096673055	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "6442450945"
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 13428] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1509096673635	Marionette	DEBUG	Register listener.js for window 8589934593
+1509096673682	Marionette	DEBUG	Check readyState "uninitialized for "about:blank"
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js, line 7: TypeError: a is not a function
+1509096674203	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "file:///C:/Users/yanxin/PycharmProjects/untitled1/day1/checkbox.html"
+1509096675996	geckodriver	INFO	geckodriver 0.19.0
+1509096676008	geckodriver	INFO	Listening on 127.0.0.1:14346
+1509096678067	mozrunner::runner	INFO	Running command: "E:\\QQ\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\yanxin\\AppData\\Local\\Temp\\rust_mozprofile.wY0cGnHwG6sx"
+1509096678460	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///E:/QQ/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1509096679121	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 18036] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+[Child 1472] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1472] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1509096681909	Marionette	INFO	Listening on port 14353
+1509096682228	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509096682263	Marionette	DEBUG	Register listener.js for window 6442450945
+1509096682289	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509096682300	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509096682301	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509096682301	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "6442450945"
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+[Child 18828] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 18828] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1509096682855	Marionette	DEBUG	Register listener.js for window 8589934593
+1509096682901	Marionette	DEBUG	Check readyState "uninitialized for "about:blank"
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js, line 7: TypeError: a is not a function
+1509096683407	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "file:///C:/Users/yanxin/PycharmProjects/untitled1/day1/checkbox.html"
+1509096704286	geckodriver	INFO	geckodriver 0.19.0
+1509096704299	geckodriver	INFO	Listening on 127.0.0.1:14411
+1509096706387	mozrunner::runner	INFO	Running command: "E:\\QQ\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\yanxin\\AppData\\Local\\Temp\\rust_mozprofile.5C4glDtgHDjK"
+1509096706866	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///E:/QQ/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1509096707515	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+[Child 18176] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 18176] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1509096710217	Marionette	INFO	Listening on port 14419
+1509096710556	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509096710594	Marionette	DEBUG	Register listener.js for window 6442450945
+1509096710615	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509096710627	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509096710628	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509096710628	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "6442450945"
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+[Child 15928] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1509096711479	Marionette	DEBUG	Register listener.js for window 8589934593
+1509096711525	Marionette	DEBUG	Check readyState "uninitialized for "about:blank"
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js, line 7: TypeError: a is not a function
+1509096712068	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "file:///C:/Users/yanxin/PycharmProjects/untitled1/day1/checkbox.html"
+1509096730789	geckodriver	INFO	geckodriver 0.19.0
+1509096730802	geckodriver	INFO	Listening on 127.0.0.1:14473
+1509096732870	mozrunner::runner	INFO	Running command: "E:\\QQ\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\yanxin\\AppData\\Local\\Temp\\rust_mozprofile.aVTyrNQA52VH"
+1509096733448	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///E:/QQ/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1509096734050	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+[Child 19200] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 19200] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1509096736578	Marionette	INFO	Listening on port 14479
+1509096737026	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509096737059	Marionette	DEBUG	Register listener.js for window 6442450945
+1509096737096	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509096737106	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509096737106	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509096737107	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "6442450945"
+1509096738292	Marionette	DEBUG	Register listener.js for window 8589934593
+1509096738378	Marionette	DEBUG	Check readyState "uninitialized for "about:blank"
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js, line 7: TypeError: a is not a function
+1509096738866	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "file:///C:/Users/yanxin/PycharmProjects/untitled1/day1/checkbox.html"
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 10352] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 10352] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+[Child 17384] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 18076] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 18076] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///E:/QQ/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1509097566930	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+[Child 14512] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14512] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1509097570020	Marionette	INFO	Listening on port 14943
+1509097570619	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509097570663	Marionette	DEBUG	Register listener.js for window 6442450945
+1509097570691	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509097570707	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509097570708	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509097570708	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "6442450945"
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+[Child 19256] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 19256] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1509097572412	Marionette	DEBUG	Register listener.js for window 8589934593
+1509097572458	Marionette	DEBUG	Check readyState "uninitialized for "about:blank"
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js, line 7: TypeError: a is not a function
+1509097573017	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "file:///C:/Users/yanxin/PycharmProjects/untitled1/day1/checkbox.html"
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 17816] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+[Child 18580] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1509099219683	geckodriver	INFO	geckodriver 0.19.0
+1509099219696	geckodriver	INFO	Listening on 127.0.0.1:56233
+1509099221696	mozrunner::runner	INFO	Running command: "E:\\QQ\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\yanxin\\AppData\\Local\\Temp\\rust_mozprofile.a3CzzXLcOqee"
+1509099222483	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///E:/QQ/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1509099223068	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+[Child 19132] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 19132] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1509099225985	Marionette	INFO	Listening on port 56241
+1509099226948	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509099226980	Marionette	DEBUG	Register listener.js for window 6442450945
+1509099227003	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509099227204	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509099227204	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509099229724	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://hao.360.cn/"
+1509099233120	Marionette	DEBUG	Received DOM event "pageshow" for "https://hao.360.cn/"
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+[Child 2740] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+1509099270944	geckodriver	INFO	geckodriver 0.19.0
+1509099270955	geckodriver	INFO	Listening on 127.0.0.1:56420
+1509099272992	mozrunner::runner	INFO	Running command: "E:\\QQ\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\yanxin\\AppData\\Local\\Temp\\rust_mozprofile.ngLLA50vdqIO"
+1509099273825	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///E:/QQ/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1509099274388	Marionette	INFO	Enabled via --marionette
+1509099277185	Marionette	INFO	Listening on port 56426
+1509099278262	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509099278297	Marionette	DEBUG	Register listener.js for window 4294967297
+1509099278325	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509099278561	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509099278562	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509099279431	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://hao.360.cn/"
+1509099282337	Marionette	DEBUG	Received DOM event "pageshow" for "https://hao.360.cn/"
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+[Child 14624] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14624] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+1509099436226	geckodriver	INFO	geckodriver 0.19.0
+1509099436240	geckodriver	INFO	Listening on 127.0.0.1:56633
+1509099438274	mozrunner::runner	INFO	Running command: "E:\\QQ\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\yanxin\\AppData\\Local\\Temp\\rust_mozprofile.RYI67KY1gNw0"
+1509099439132	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///E:/QQ/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1509099439800	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+[Child 216] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 216] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1509099442644	Marionette	INFO	Listening on port 56641
+1509099443528	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509099443560	Marionette	DEBUG	Register listener.js for window 6442450945
+1509099443580	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509099443847	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509099443847	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509099445447	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://hao.360.cn/"
+1509099449421	Marionette	DEBUG	Received DOM event "pageshow" for "https://hao.360.cn/"
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+[Child 17504] WA1509099486977	mozrunner::runner	INFO	Running command: "E:\\QQ\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\yanxin\\AppData\\Local\\Temp\\rust_mozprofile.xQDSW0tVLG10"
+1509099487830	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///E:/QQ/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1509099488381	Marionette	INFO	Enabled via --marionette
+1509099491229	Marionette	INFO	Listening on port 56807
+1509099492248	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509099492283	Marionette	DEBUG	Register listener.js for window 4294967297
+1509099492307	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509099492562	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509099492562	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509099493460	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://hao.360.cn/"
+1509099496911	Marionette	DEBUG	Received DOM event "pageshow" for "https://hao.360.cn/"
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+[Child 15148] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15148] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+[Child 16812] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16812] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+1509099562652	geckodriver	INFO	geckodriver 0.19.0
+1509099562664	geckodriver	INFO	Listening on 127.0.0.1:56978
+1509099564694	mozrunner::runner	INFO	Running command: "E:\\QQ\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\yanxin\\AppData\\Local\\Temp\\rust_mozprofile.U1UiXq3stwK3"
+1509099565477	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///E:/QQ/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1509099566044	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+[Child 10644] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10644] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1509099568885	Marionette	INFO	Listening on port 56985
+1509099569948	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509099569983	Marionette	DEBUG	Register listener.js for window 6442450945
+1509099570007	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509099570047	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509099570048	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509099570080	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.hao123.com/"
+1509099570086	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.hao123.com/"
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: https://cpro.baidustatic.com/cpro/ui/noexpire/js/4.0.0/adClosefeedbackUpgrade.min.js, line 1: TypeError: g is null
+JavaScript error: https://cpro.baidustatic.com/cpro/ui/noexpire/js/4.0.0/adClosefeedbackUpgrade.min.js, line 1: TypeError: g is null
+JavaScript error: resource://gre/modules/WebNavigationFrames.jsm, line 59: TypeError: window is null
+console.log: plural-form.js: Index #1 of '再显示一个节点；显示全部 #1 个节点' for value 298 is invalid -- plural rule #1;
+
+Handler function NetworkEventActorProxy.addSecurityInfo threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1689"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1689:5
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+NetworkResponseListener.prototype._getSecurityInfo<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:495:5
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+onStartRequest@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:436:5
+Line: 1689, column: 0
+console.error: 
+  Handler function NetworkEventActorProxy.addSecurityInfo threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1689"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1689:5
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+NetworkResponseListener.prototype._getSecurityInfo<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:495:5
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+onStartRequest@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:436:5
+Line: 1689, column: 0
+Handler function NetworkEventActorProxy.addSecurityInfo threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1689"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1689:5
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+NetworkResponseListener.prototype._getSecurityInfo<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:495:5
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+onStartRequest@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:436:5
+Line: 1689, column: 0
+console.error: 
+  Handler function NetworkEventActorProxy.addSecurityInfo threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1689"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1689:5
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+NetworkResponseListener.prototype._getSecurityInfo<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:495:5
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+onStartRequest@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:436:5
+Line: 1689, column: 0
+Handler function NetworkEventActorProxy.addSecurityInfo threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1689"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1689:5
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+NetworkResponseListener.prototype._getSecurityInfo<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:495:5
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+onStartRequest@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:436:5
+Line: 1689, column: 0
+console.error: 
+  Handler function NetworkEventActorProxy.addSecurityInfo threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1689"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1689:5
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+NetworkResponseListener.prototype._getSecurityInfo<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:495:5
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+onStartRequest@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:436:5
+Line: 1689, column: 0
+Handler function NetworkEventActorProxy.addResponseContent threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1689"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1689:5
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+_onComplete@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:620:5
+onStreamClose@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:577:7
+onInputStreamReady@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:668:7
+Line: 1689, column: 0
+console.error: 
+  Handler function NetworkEventActorProxy.addResponseContent threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1689"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1689:5
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+_onComplete@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:620:5
+onStreamClose@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:577:7
+onInputStreamReady@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:668:7
+Line: 1689, column: 0
+Handler function NetworkEventActorProxy.addResponseContent threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1689"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1689:5
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+_onComplete@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:620:5
+onStreamClose@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:577:7
+onInputStreamReady@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:668:7
+Line: 1689, column: 0
+console.error: 
+  Handler function NetworkEventActorProxy.addResponseContent threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1689"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1689:5
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+_onComplete@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:620:5
+onStreamClose@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:577:7
+onInputStreamReady@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:668:7
+Line: 1689, column: 0
+Handler function NetworkEventActorProxy.addResponseContent threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1689"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1689:5
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+_onComplete@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:620:5
+onStreamClose@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:569:7
+onInputStreamReady@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:668:7
+Line: 1689, column: 0
+console.error: 
+  Handler function NetworkEventActorProxy.addResponseContent threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1689"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1689:5
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+_onComplete@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:620:5
+onStreamClose@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:569:7
+onInputStreamReady@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:668:7
+Line: 1689, column: 0
+[Child 19212] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 19212] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+1509099806433	geckodriver	INFO	geckodriver 0.19.0
+1509099806445	geckodriver	INFO	Listening on 127.0.0.1:57151
+1509099808470	mozrunner::runner	INFO	Running command: "E:\\QQ\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\yanxin\\AppData\\Local\\Temp\\rust_mozprofile.0ZyOQwsM8g21"
+1509099808886	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///E:/QQ/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1509099809438	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+[Child 17952] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17952] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1509099812229	Marionette	INFO	Listening on port 57158
+1509099812649	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509099812682	Marionette	DEBUG	Register listener.js for window 4294967297
+1509099812704	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509099813236	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509099813236	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509099813617	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.hao123.com/"
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: https://cpro.baidustatic.com/cpro/ui/noexpire/js/4.0.0/adClosefeedbackUpgrade.min.js, line 1: TypeError: g is null
+JavaScript error: https://cpro.baidustatic.com/cpro/ui/noexpire/js/4.0.0/adClosefeedbackUpgrade.min.js, line 1: TypeError: g is null
+1509099814872	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.hao123.com/"
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+[Child 10336] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4B0029,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Child 17388] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+1509100104602	geckodriver	INFO	geckodriver 0.19.0
+1509100104618	geckodriver	INFO	Listening on 127.0.0.1:57952
+1509100106660	mozrunner::runner	INFO	Running command: "E:\\QQ\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\yanxin\\AppData\\Local\\Temp\\rust_mozprofile.nrdWpvh956Hi"
+1509100107046	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///E:/QQ/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1509100107697	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+[Child 17032] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17032] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1509100110650	Marionette	INFO	Listening on port 57961
+1509100110827	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509100110857	Marionette	DEBUG	Register listener.js for window 4294967297
+1509100110886	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509100111158	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509100111158	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509100111898	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://hao.360.cn/"
+1509100115274	Marionette	DEBUG	Received DOM event "pageshow" for "https://hao.360.cn/"
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+[Child 5564] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1509100119434	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 18140] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+[Child 14544] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1509100565314	geckodriver	INFO	geckodriver 0.19.0
+1509100565326	geckodriver	INFO	Listening on 127.0.0.1:58435
+1509100567404	mozrunner::runner	INFO	Running command: "E:\\QQ\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\yanxin\\AppData\\Local\\Temp\\rust_mozprofile.JflLcXVmSYCr"
+1509100567801	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///E:/QQ/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1509100568380	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+[Child 15004] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15004] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1509100571320	Marionette	INFO	Listening on port 58442
+1509100571565	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509100571597	Marionette	DEBUG	Register listener.js for window 6442450945
+1509100571619	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509100571632	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509100571633	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509100571633	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "6442450945"
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+[Child 17532] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1509100572161	Marionette	DEBUG	Register listener.js for window 8589934593
+1509100572210	Marionette	DEBUG	Check readyState "uninitialized for "about:blank"
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js, line 7: TypeError: a is not a function
+1509100572711	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "file:///C:/Users/yanxin/PycharmProjects/untitled1/day1/checkbox.html"
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 17396] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 17396] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+[Child 10308] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10308] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16080] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1509100679816	geckodriver	INFO	geckodriver 0.19.0
+1509100679819	geckodriver	INFO	Listening on 127.0.0.1:58680
+1509100681892	mozrunner::runner	INFO	Running command: "E:\\QQ\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\yanxin\\AppData\\Local\\Temp\\rust_mozprofile.yiuscBeIAsLf"
+1509100682283	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///E:/QQ/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1509100682901	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+[Child 14548] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14548] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1509100685868	Marionette	INFO	Listening on port 58686
+1509100686046	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509100686077	Marionette	DEBUG	Register listener.js for window 6442450945
+1509100686100	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509100686110	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509100686110	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509100686111	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "6442450945"
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+[Child 18004] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 18004] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1509100686617	Marionette	DEBUG	Register listener.js for window 8589934593
+1509100686664	Marionette	DEBUG	Check readyState "uninitialized for "about:blank"
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js, line 7: TypeError: a is not a function
+1509100687149	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "file:///C:/Users/yanxin/PycharmProjects/untitled1/day1/checkbox.html"
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 2028] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2028] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5860] WARNING: pipe error: 232: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513
+[Child 5860] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1509100723599	geckodriver	INFO	geckodriver 0.19.0
+1509100723612	geckodriver	INFO	Listening on 127.0.0.1:58742
+1509100725651	mozrunner::runner	INFO	Running command: "E:\\QQ\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\yanxin\\AppData\\Local\\Temp\\rust_mozprofile.o8XK4sEk2yRN"
+1509100726030	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///E:/QQ/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1509100726645	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+[Child 15876] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15876] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1509100729576	Marionette	INFO	Listening on port 58748
+1509100729830	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509100729862	Marionette	DEBUG	Register listener.js for window 4294967297
+1509100729885	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509100729897	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509100729897	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509100729898	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967297"
+1509100730410	Marionette	DEBUG	Register listener.js for window 8589934593
+1509100730463	Marionette	DEBUG	Check readyState "uninitialized for "about:blank"
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js, line 7: TypeError: a is not a function
+1509100730988	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "file:///C:/Users/yanxin/PycharmProjects/untitled1/day1/checkbox.html"
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 18884] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 18884] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14236] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14236] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+[Child 19016] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 19016] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1509328550524	geckodriver	INFO	geckodriver 0.19.0
+1509328550537	geckodriver	INFO	Listening on 127.0.0.1:6718
+1509328552565	mozrunner::runner	INFO	Running command: "E:\\QQ\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\yanxin\\AppData\\Local\\Temp\\rust_mozprofile.iqCtRFxm3uwu"
+1509328553544	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///E:/QQ/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1509328554217	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+[Child 20092] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 20092] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1509328557162	Marionette	INFO	Listening on port 6725
+1509328557821	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509328557853	Marionette	DEBUG	Register listener.js for window 6442450945
+1509328557872	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509328557900	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509328557900	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509328557901	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "6442450945"
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+[Child 20096] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 20096] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1509328560121	Marionette	DEBUG	Register listener.js for window 8589934593
+1509328560168	Marionette	DEBUG	Check readyState "uninitialized for "about:blank"
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js, line 7: TypeError: a is not a function
+1509328560686	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "file:///C:/Users/yanxin/PycharmProjects/untitled1/day1/checkbox.html"
+[Child 20428] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 20428] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1509328562774	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Unable to read VR Path Registry from C:\Users\yanxin\AppData\Local\openvr\openvrpaths.vrpath
