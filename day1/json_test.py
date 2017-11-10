@@ -11,6 +11,6 @@ b = {1: 'a', 2: 'b','c':'d'}
 
 c = json.dumps(b).encode()
 print(c)
-d = json.loads(c)#不需要decode（）
+d = json.loads(c.decode())#不需要decode（）
 print(d)
 print(d['c'])
