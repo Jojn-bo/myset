@@ -2,7 +2,7 @@ from urllib import request
 import gevent,time
 from gevent import monkey
 
-monkey.patch_all()#把当前程序的所有IO操作单独做上标记
+monkey.patch_all()#把当前程序的所有可能是IO操作的，单独做上标记
 
 def f(url):
     print('GET:%s'%url)
@@ -14,6 +14,7 @@ urls = ['https://www.python.org/','https://www.yahoo.com/','https://github.com/'
 time_start = time.time()
 for url in urls:
     f(url)
+
 print('同步cost',time.time()- time_start)
 
 async_time_start = time.time()
