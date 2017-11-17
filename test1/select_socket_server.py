@@ -41,15 +41,15 @@ while True:
 
         else: #s不是server的话,那就只能是一个 与客户端建立的连接的fd了
             #客户端的数据过来了,在这接收
-            data = s.recv(1024)
-            if data:
-                print("收到来自[%s]的数据:" % s.getpeername()[0], data)
-                message_queues[s].put(data) #收到的数据先放到queue里,一会返回给客户端
-                if s not  in outputs:
-                    outputs.append(s) #为了不影响处理与其它客户端的连接 , 这里不立刻返回数据给客户端
+            try:
+                data = s.recv(1024)
+                if data:
+                    print("收到来自[%s]的数据:" % s.getpeername()[0], data)
+                    message_queues[s].put(data) #收到的数据先放到queue里,一会返回给客户端
+                    if s not  in outputs:
+                        outputs.append(s) #为了不影响处理与其它客户端的连接 , 这里不立刻返回数据给客户端
 
-
-            else:#如果收不到data代表什么呢? 代表客户端断开了呀
+            except ConnectionResetError:#如果收不到data代表什么呢? 代表客户端断开了呀
                 print("客户端断开了",s)
 
                 if s in outputs:
