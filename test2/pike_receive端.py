@@ -1,6 +1,6 @@
 import pika
 
-connection = pika.BlockingConnection(pika.ConnectionParameters('localhost',port=9999))
+connection = pika.BlockingConnection(pika.ConnectionParameters('localhost'))
 channel = connection.channel()
 
 #这个声明是防止先运行消费者.py时,没声明队列引起报错而再声明一次的，
