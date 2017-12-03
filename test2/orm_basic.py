@@ -65,8 +65,12 @@ Session.add_all([user_obj1, user_obj2, user_obj3, user_obj4, user_obj5, user_obj
 # print(data)
 
 # print(Session.query(User).filter(User.name.in_(['Alex1', 'a'])).count())#in类似于between，count统计总条数，不区分大小写
-print('user:', Session.query(User.name, func.count(User.name)).group_by(User.name).all())
-date = Session.query(Student).filter_by().all()
-print(date)
+# print('user:', Session.query(User.name, func.count(User.name)).group_by(User.name).all())
+# date = Session.query(Student).filter_by().all()
+# print(date)
+
+# print(Session.query(User, Student).filter(User.id == Student.id).all())
+# print(Session.query(User).join(Student).all())#这个需要外键连接才能不报错
 
 # Session.commit()  # 现此才统一提交，创建数据
+
