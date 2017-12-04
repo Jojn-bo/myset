@@ -31,7 +31,6 @@ class Author(Base):
     def __repr__(self):
         return self.name
 
-engine = create_engine("mysql+pymysql://root:12345@localhost/python",
-                       encoding='utf-8')
+engine = create_engine("mysql+pymysql://root:12345@localhost/python?charset=utf8")
 
 Base.metadata.create_all(engine)  # 创建表结构
