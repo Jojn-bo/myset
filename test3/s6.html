@@ -1,3 +1,4 @@
+<!--这些标签都是可以把数据提交到后台的-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,6 +8,14 @@
 <body>
     <form enctype="multipart/form-data"><!--enctype这个是上传文件要关联的插件-->
         <div>
+            <select name="city" size="10" multiple="multiple"><!--size是长度,单个下拉框是默认1,multiple是支持按住ctrl多选-->
+                <option value="1">北京</option>
+                <option value="2">上海</option>
+                <option value="3" selected="selected">南京</option><!--默认-->
+                <option value="4">成都</option>
+            </select>
+
+            <br>
             <input type="text" name="user" />
             <p>请选择性别：</p>
             男：<input type="radio" name="gender" value="1"/>
@@ -23,6 +32,9 @@
             <p>上传文件</p>
             <input type="file" name="fname" />
         </div>
+
+        <textarea name="meno" >默认值</textarea><!--多行文本-->
+
         <input type="submit" value="提交" />
         <input type="reset" value="重置" />
     </form>
