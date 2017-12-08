@@ -3,10 +3,12 @@ import sys
 
 def Welcome():
     str = 'Welcome in test_Calculator'
-    print(str.center(50,'*'))
+    print(str.center(50, '*'))
     expression = input('input you expression:')
-    space = re.findall('\s*')#找到所有的空格
-    expressions = expression.replace(space,'')#把所有的空格用去除
+    # space = ''.join(re.findall('\s*', expression))#找到所有的空格
+    space = re.findall('\s*', expression)  # 找到所有的空格
+    space = ''.join(space)
+    expressions = expression.replace(space, '')#把所有的空格用去除
     return expressions
 
 
@@ -96,7 +98,7 @@ def execute(expression):
 
 if __name__ =='__main__':
     try:
-        # expression = Welcome()
+        expression = Welcome()
         # expression = "-1+3*(-3*2-2/-2+1)/2"
         # expression = '1-2*((60-30+(-40.0/5)*(9-2*5/3+7/3*99/4*2998+10*568/14))-(-4*3)/(16-3*2))'
         # expression1 = chenchu(expression)
@@ -104,11 +106,10 @@ if __name__ =='__main__':
         result = float(execute(expression))
         res = float(eval(expression))
         if result == res:
-            print('计算结果正确')
+            print('计算结果:', result)
         else:
             print('计算结果错误！')
-            print('正则计算为:',result)
+            print('正则计算为:', result)
             print('eval计算为：{0}'.format(res))
-
     except(BaseException):
-        print('正则出问题，问题如下{}'.format(BaseException.args))
+        print('正则出问题，问题如下:\n', sys.exc_info())
