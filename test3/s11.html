@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <style>
+            /* id选择器 */
+            #i1{
+                background-color: #2459a2;
+                height: 48px;
+            }
+            #i2{
+                background-color: deeppink;
+                height: 50px;
+            }
+            /* class选择器 */
+            .c1{
+                background-color: aqua;
+                height: 5px;
+            }
+            /* 这个标签选择器是应用于所有的div标签的样式
+            div{
+                background-color: chocolate;
+                color: gold;
+            }*/
+            /*层级选择器（用空格隔开）：
+                .c1 .c2 span
+                意思就是在.c1 下寻找.c2 下的 span，然后应用样式（应用最底层的样式）*/
+            span div{
+                background-color: chocolate;
+                color: gold;
+            }
+            /*组合选择器，就是下面所有的包含的id、class、div等的样式可以写在一起，用逗号隔开*/
+            /* #i1,#i2,.c1{
+                 background-color: chocolate;
+                 color: gold;
+            } */
+            /*
+            属性选择器
+            下面这个的意思就是，找到input下type为text的标签，应用该样式
+            也可以：.c[name='BBBBB']{width: 100px; height: 200px;}
+            */
+            input[type='text']{width: 100px; height: 200px;}
+        </style>
+    </head>
+
+    <body>
+        <div id="i1">ff</div><!--id可以指定head里面style的内容，但#写的不可复用-->
+        <span style="background-color: #ffffff; height: 48px;">23
+            <div>这里的样式可以用span div来引用</div>
+        </span>
+        <span id="i2">23</span><!--行级标签，颜色有多少占多少，而div就是块级标签，可以用颜色占用一行-->
+        <div class="c1">444</div><!--style中用.写的可以复用，用class来引用-->
+        <label>测试div高度和height高度</label><!--和设定的高度还是有关的，通过修改高度，看颜色和字体的位置可以得出结果-->
+        <br>
+        <input type="text" name="uuuu" value="1">
+    </body>
+</html>
