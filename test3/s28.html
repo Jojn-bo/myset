@@ -1,0 +1,65 @@
+<!--这种布局适用于给内容加背景-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        .left{
+            float: left;
+        }
+        .right{
+            float: right;
+        }
+        .pg-header{
+            height: 48px;
+            background-color: #2459a2;
+            color: white;
+        }
+        .pg-content .menu{
+            position: absolute;
+            top: 48px;
+            left: 0;
+            bottom: 0;
+            width: 200px;
+            background-color: #dddddd;
+        }
+        .pg-content .content{
+            position: absolute;
+            top: 48px;
+            right: 0;
+            bottom: 0;
+            left: 200px;
+            overflow: auto;/*这个是content中的内容超过了，就出现滚动条*/
+            min-width: 600px;
+        }
+    </style>
+</head>
+<body>
+    <div class="pg-header"></div>
+    <div class="pg-content">
+        <div class="menu left">a</div>
+        <div class="content left">
+            <!--<div style="position: fixed;bottom: 0;right: 0;width: 50px;height: 50px;">返回顶部</div>-->
+            <div style="background-color: purple">
+                <p style="margin: 0">sasdf</p><p>sasdf</p><p>sasdf</p><p>sasdf</p>
+                <p>sasdf</p><p>sasdf</p><p>sasdf</p><p>sasdf</p>
+                <p>sasdf</p><p>sasdf</p><p>sasdf</p><p>sasdf</p>
+                <p>sasdf</p><p>sasdf</p><p>sasdf</p><p>sasdf</p>
+                <p>sasdf</p><p>sasdf</p><p>sasdf</p><p>sasdf</p>
+                <p>sasdf</p><p>sasdf</p><p>sasdf</p><p>sasdf</p>
+                <p>sasdf</p><p>sasdf</p><p>sasdf</p><p>sasdf</p>
+                <p>sasdf</p><p>sasdf</p><p>sasdf</p><p>sasdf</p>
+                <p>sasdf</p><p>sasdf</p><p>sasdf</p><p>sasdf</p>
+                <p>sasdf</p><p>sasdf</p><p>sasdf</p><p>sasdf</p>
+                <p>sasdf</p><p>sasdf</p><p>sasdf</p><p>sasdf</p>
+                <p>sasdf</p><p>sasdf</p><p>sasdf</p><p>sasdf</p>
+            </div>
+        </div>
+    </div>
+    <div class="pg-footer"></div>
+</body>
+</html>
