@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="Font-Awesome-master/css/font-awesome.min.css">
     <style>
         body{
             margin: 0;
@@ -18,6 +19,48 @@
             height: 48px;
             background-color: #2459a2;
             color: white;
+            line-height: 48px;
+        }
+        .pg-header .logo{
+            width: 200px;
+            background-color: cadetblue;
+            text-align: center;
+        }
+        .pg-header .icons{
+            padding: 0 20px;
+        }
+        .pg-header .icons:hover{
+            background: #204982;
+        }
+        .pg-header .user{
+            margin-right: 60px;
+            padding: 0 20px;
+            color: white;
+            height: 48px;
+        }
+        .pg-header .user:hover{
+            background-color: #204982;
+        }
+        .pg-header .user .a img{
+            height: 40px;
+            width: 40px;
+            margin-top: 4px;
+            border-radius: 50%
+        }
+        .pg-header .user .b{
+            z-index: 20;
+            position: absolute;
+            top: 48px;
+            right: 44px;
+            background-color: red;
+            width: 160px;
+            display: none;
+        }
+        .pg-header .user:hover .b{
+            display: block;
+        }
+        .pg-header .user .b a{
+            display: block;
         }
         .pg-content .menu{
             position: absolute;
@@ -35,11 +78,36 @@
             left: 200px;
             overflow: auto;/*这个是content中的内容超过了，就出现滚动条*/
             min-width: 600px;
+            z-index: 9;
         }
     </style>
 </head>
 <body>
-    <div class="pg-header"></div>
+    <div class="pg-header">
+        <div class = 'logo left'>
+            老男孩
+        </div>
+
+        <div class="user right" style="position: relative">
+            <a class ='a' href="#">
+                <img src="1.jpg">
+            </a>
+            <div class='b'>
+                <a style="text-align: center">我的资料</a>
+                <a>注销</a>
+            </div>
+        </div>
+
+        <div class="icons right">
+            <i class="fa fa-commenting-o" aria-hidden="true"></i>
+            <span style="border-radius: 50%;display: inline-block;padding: 10px 7px;
+                  line-height: 1px;background-color: red;font-size: 12px">5</span>
+        </div>
+        <div class="icons right">
+            <i class="fa fa-bell-o" aria-hidden="true"></i>
+        </div>
+
+    </div>
     <div class="pg-content">
         <div class="menu left">a</div>
         <div class="content left">
