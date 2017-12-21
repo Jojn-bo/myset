@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+
+</style>
+<body>
+    <table border="1" width="300px;">
+        <tr><td>1</td><td>2</td><td>3</td></tr>
+        <tr><td>1</td><td>2</td><td>3</td></tr>
+        <tr><td>1</td><td>2</td><td>3</td></tr>
+        <tr><td>1</td><td>2</td><td>3</td></tr>
+        <tr><td>1</td><td>2</td><td>3</td></tr>
+        <tr><td>1</td><td>2</td><td>3</td></tr>
+    </table>
+    <script>
+        var myTrs = document.getElementsByTagName('tr');
+        var len = myTrs.length;
+        for(var i =0; i<len; i++){
+            myTrs[i].onmouseover = function () {
+                // this 谁调用这个事件，这个this就指向谁，这里指向的是myTrs[i];
+                this.style.backgroundColor = 'red';
+            };
+
+            myTrs[i].onmouseout = function () {
+                // this 谁调用这个事件，这个this就指向谁，这里指向的是myTrs[i];
+                this.style.backgroundColor = '';
+            };
+        }
+        // function t1(n) {
+        //     var myTrs = document.getElementsByTagName('tr')[n];
+        //     // console.log(myTrs);
+        //     myTrs.style.backgroundColor = 'red';
+        // }
+        // function t2(n) {
+        //     var myTrs = document.getElementsByTagName('tr')[n];
+        //     myTrs.style.backgroundColor = '';
+        // }
+    </script>
+</body>
+</html>
