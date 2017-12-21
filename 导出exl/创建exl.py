@@ -2,7 +2,7 @@ import xlwt
 import re
 
 # 打开测试文档
-with open('测试文档', encoding='utf-8') as f:  # 加encoding的原因是因为测试文档中，有unicode
+with open('测试文档.txt.tet', encoding='utf-8') as f:  # 加encoding的原因是因为测试文档中，有unicode
     msg = f.read()
 
 # 正则搜索关键信息
