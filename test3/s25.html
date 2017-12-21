@@ -20,7 +20,7 @@
     <div></div>
     <div style="width: 300px">
         <div class="item">
-            <div id = 'i1' class="header" onclick="ChangeMenu('i1')">菜单1</div>
+            <div class="header" onclick="ChangeMenu(this)">菜单1</div>
             <div class="content">
                 <div>内容1</div>
                 <div>内容1</div>
@@ -28,7 +28,7 @@
             </div>
         </div>
         <div class="item">
-            <div id = 'i2' class="header" onclick="ChangeMenu('i2')">菜单2</div>
+            <div class="header" onclick="ChangeMenu(this)">菜单2</div>
             <div class="content hide">
                 <div>内容2</div>
                 <div>内容2</div>
@@ -36,7 +36,7 @@
             </div>
         </div>
         <div class="item">
-            <div id = 'i3' class="header" onclick="ChangeMenu('i3')">菜单3</div>
+            <div class="header" onclick="ChangeMenu(this)">菜单3</div>
             <div class="content hide">
                 <div>内容3</div>
                 <div>内容3</div>
@@ -44,7 +44,7 @@
             </div>
         </div>
         <div class="item">
-            <div id = 'i4' class="header" onclick="ChangeMenu('i4')">菜单4</div>
+            <div class="header" onclick="ChangeMenu(this)">菜单4</div>
             <div class="content hide">
                 <div>内容4</div>
                 <div>内容4</div>
@@ -54,8 +54,10 @@
     </div>
     <script>
         function ChangeMenu(nid) {
-            var current_header = document.getElementById(nid);
-            // console.log(current_header);
+            //this 全局变量 window
+            //var current_header = document.getElementById(nid);
+             //console.log(current_header);
+            var current_header = nid;
             var item_list = current_header.parentElement.parentElement.children;
             for(var i = 0; i < item_list.length; i++){
                 var current_item = item_list[i];
