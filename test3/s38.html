@@ -1,0 +1,33 @@
+<!--事件之冒泡（false）与捕捉（true）-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    #main{
+        background-color: red;
+        width: 300px;
+        height: 400px;
+    }
+    #content{
+        background-color: pink;
+        width: 150px;
+        height: 200px;
+    }
+</style>
+<body>
+    <div id="main">
+        <div id="content"></div>
+    </div>
+    <script>
+        var myMain = document.getElementById('main');
+        var myContent = document.getElementById('content');
+        // myMain.addEventListener('click',function () {console.log('main')},false);  //这里是冒泡，使用本部分的标签往上寻找
+        // myContent.addEventListener('click',function () {console.log('myContent')},false);
+        myMain.addEventListener('click',function () {console.log('main')},true);  //这里是捕捉，从最顶层标签开始往下寻找
+        myContent.addEventListener('click',function () {console.log('myContent')},true);
+    </script>
+</body>
+</html>

@@ -1,24 +1,35 @@
+<!--行为（js）、样式（css）、结构（html）相分离的页面样式-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
-<body>
-
-</body>
-</html><!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
 <style>
-
+    #test{
+        background-color: red;
+        width: 300px;
+        height: 400px;
+    }
 </style>
 <body>
+    <div id="test">
+        dsad
+    </div>
     <script>
-
+        // function t1() {
+        //     console.log('dsads')
+        // }
+        var mydiv = document.getElementById('test');
+        // console.log(mydiv);
+        // mydiv.onclick = function () {
+        //     console.log('dasfsd ')
+        // };
+        // mydiv.onclick = function () {
+        //     console.log('fffffff')
+        // }
+        mydiv.addEventListener('click',function () {console.log('aaa')}, false);
+        mydiv.addEventListener('click',function () {console.log('bbb')}, false);
     </script>
 </body>
 </html>
