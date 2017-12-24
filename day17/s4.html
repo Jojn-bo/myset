@@ -32,14 +32,14 @@
 </head>
 <body>
     <a onclick="addElement();">添加</a>
-    <table border="1">
+    <table border="1" id="tb">
         <tr>
             <td target="hostname">1.1.1.1</td>
             <td target="port">80</td>
             <td target="ip">801</td>
 
             <td>
-                <a class="edit">编辑</a> | <a>删除</a>
+                <a class="edit">编辑</a> | <a class="del">删除</a>
             </td>
         </tr>
         <tr>
@@ -47,7 +47,7 @@
             <td target="port">81</td>
             <td target="ip">802</td>
             <td>
-                <a class="edit">编辑</a> | <a>删除</a>
+                <a class="edit">编辑</a> | <a class="del">删除</a>
             </td>
         </tr>
         <tr>
@@ -55,7 +55,7 @@
             <td target="port">82</td>
             <td target="ip">803</td>
             <td>
-                <a class="edit">编辑</a> | <a>删除</a>
+                <a class="edit">编辑</a> | <a class="del">删除</a>
             </td>
         </tr>
         <tr>
@@ -63,7 +63,7 @@
             <td target="port">83</td>
             <td target="ip">804</td>
             <td>
-                <a class="edit">编辑</a> | <a>删除</a>
+                <a class="edit">编辑</a> | <a class="del">删除</a>
             </td>
         </tr>
     </table>
@@ -76,6 +76,7 @@
         </div>
         <div>
             <input type="button" value="取消" onclick="cancelModal()">
+            <input type="button" value="确定" onclick="confirmModal()">
         </div>
     </div>
 
@@ -83,6 +84,26 @@
 
     <script src="jquery-1.12.4.js"></script>
     <script>
+        $('.del').click(function () {
+            $(this).parent().parent().remove();
+        });
+        function confirmModal() {
+            var tr = document.createElement('tr');
+
+            var td1 = document.createElement('td');
+            td1.innerHTML = '11.11.11.11';
+            var td2 = document.createElement('td');
+            td2.innerHTML = '8001';
+
+            $(tr).append(td1);
+            $(tr).append(td2);
+
+            $('#tb').append(tr);
+            $('.modal,.shadow').addClass('hide');
+            // $('.modal input[type="text"]').each(function () {
+            //
+            // });
+        }
         function addElement() {
             $('.modal,.shadow').removeClass('hide');
         }
