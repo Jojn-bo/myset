@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .error{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <form id="f1" action="s5.html" method="post">
+        <div><input name="n1" type="text"></div>
+        <div><input name="n2" type="password"></div>
+        <div><input name="n3" type="text"></div>
+        <div><input name="n4" type="text"></div>
+        <div><input name="n5" type="text"></div>
+
+        <input type="submit" value="提交">
+        <img src="...">
+    </form>
+    <script src="jquery-1.12.4.js"></script>
+    <script>
+        // 当页面框架加载完成后，自动执行，这就防止因某个元素加载太慢而使得页面加载不出来的尴尬情景出现
+        $(function () {
+            //当页面所有元素完全加载完毕后，执行下面代码
+            $(':submit').click(function () {
+                $('.error').remove();
+
+                var flag = true;
+                // 这个下面的find，中间加个逗号，相当于if中的and
+                $('#f1').find('input[type="text"],input[type="password"]').each(function () {
+                    var v = $(this).val();
+                    // console.log(this,v);
+                    if(v.length <= 0){
+                        flag = false;
+                        var tag = document.createElement('span');
+                        tag.className = 'error';
+                        tag.innerHTML = '必填';
+                        $(this).after(tag);
+                        return false; //这个的效果是，如果第一个错误了，下面的就不验证了
+                    }
+
+                });
+                return flag;
+            })
+        });
+
+
+        // $(':submit').click(function () {
+        //     var v = $(this).prev().val();
+        //     // if(v.length > 0){
+        //     //     return true;
+        //     // }else{
+        //     //     return false;
+        //     // }
+        //     var lenth = v.length>0?true:false;
+        //     if (lenth){
+        //         return true;
+        //     }else{
+        //         alter('请输入内容');
+        //         return false;
+        //     }
+        // })
+    </script>
+</body>
+</html>
