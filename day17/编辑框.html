@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #div_first{
+            min-width: 300px;
+            overflow: auto;
+        }
+        #div_head{
+            height: 40px;
+            margin: 20px;
+            /*text-align: center;*/
+        }
+        #div_head label{
+            font-size:20px;
+            background-color: darkgray;
+            display: inline-block;
+            line-height: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div id="div_first">
+        <div id="div_head">
+            <input id="allChoise" type="button" value="全选">
+            <input id="rChoise" type="button" value="反选">
+            <input id="cancelChoise" type="button" value="取消">
+            <label id="edit">进入编辑模式</label>
+        </div>
+
+        <table id="tab" border="1" >
+            <thead>
+                <tr>
+                    <th>选择</th>
+                    <th>主机名</th>
+                    <th>端口</th>
+                    <th>状态</th>
+                </tr>
+            </thead>
+            <tbody id="tb">
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td>v1</td>
+                    <td>v11</td>
+                    <td>在线</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td>v1</td>
+                    <td>v11</td>
+                    <td>在线</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td>v1</td>
+                    <td>v11</td>
+                    <td>在线</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+
+    <script src="jquery-1.12.4.js"></script>
+    <script>
+        $('#allChoise').click(function () {
+            $(':checkbox').prop('checked',true);
+        });
+        $('#rChoise').click(function () {
+            $(':checkbox').each(function () {
+                if($(this).prop('checked')){
+                    $(this).prop('checked',false);
+                }else{
+                    $(this).prop('checked',true);
+                }
+            })
+        });
+        $('#cancelChoise').click(function () {
+            $(':checkbox').prop('checked',false);
+        });
+        
+        $('#edit').click(function () {
+            $(this).css('backgroundColor','coral');
+            $('#tab').css({
+                'border':'4',
+                'height':'200px',
+                'width':'250px'
+            });
+
+        })
+    </script>
+</body>
+</html>
