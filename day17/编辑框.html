@@ -5,7 +5,7 @@
     <title>Title</title>
     <style>
         #div_first{
-            min-width: 300px;
+            min-width: 350px;
             overflow: auto;
         }
         #div_head{
@@ -82,14 +82,42 @@
         });
         
         $('#edit').click(function () {
-            $(this).css('backgroundColor','coral');
-            $('#tab').css({
-                'border':'4',
-                'height':'200px',
-                'width':'250px'
-            });
+            var args1 = [{'backgroundColor':'darkgray'},{ 'border':'1', 'height':'110px', 'width':'170px'}];
+            var args2 = [{'backgroundColor':'coral'},{ 'border':'4', 'height':'200px', 'width':'250px'}];
+            if (($(this).css('backgroundColor')) == 'rgb(169, 169, 169)'){
+                changeClass_table(this,args2);
+            }else{
+                changeClass_table(this,args1);
+            }
+        });
 
-        })
+        function changeClass_table(This,args) {
+            // label 背景变色
+            $(This).css(args[0]);
+            // table 外观变化
+            $('#tab').css(args[1]);
+            // 两个tr删除，复制其中的数据，转换为一个input和一个select
+            // 1、获取数据
+            var i = 0;
+            $(':checkbox').parent().siblings().each(function () {
+                // console.log($(this).text());
+                if (i == 3){
+                    var select1 = '<select><option>在线</option><option>离线</option><option>忙碌</option></select>';
+                    var temp = $(this).text();
+                    $(this).remove().append(select1);
+                    i++;
+                }else{
+                    var temp = $(this).text();
+                    var create = document.createElement('input');
+                    var td = document.createElement('td');
+                    create.innerText = temp;
+                    td.append(create);
+                    $(this).remove();
+                    $(this).append(td);
+                }
+                i++;
+            });
+        }
     </script>
 </body>
 </html>
