@@ -98,22 +98,17 @@
             $('#tab').css(args[1]);
             // 两个tr删除，复制其中的数据，转换为一个input和一个select
             // 1、获取数据
-            var i = 0;
+            var i = 1;
             $(':checkbox').parent().siblings().each(function () {
                 // console.log($(this).text());
                 if (i == 3){
-                    var select1 = '<select><option>在线</option><option>离线</option><option>忙碌</option></select>';
-                    var temp = $(this).text();
-                    $(this).remove().append(select1);
+
                     i++;
                 }else{
-                    var temp = $(this).text();
-                    var create = document.createElement('input');
-                    var td = document.createElement('td');
-                    create.innerText = temp;
-                    td.append(create);
-                    $(this).remove();
-                    $(this).append(td);
+                    var temp = $(this);
+                    var tx = temp.text();
+                    temp.text('');
+                    temp.append('<input type="text" value="' + tx + '">');
                 }
                 i++;
             });
