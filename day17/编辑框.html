@@ -65,9 +65,11 @@
 
     <script src="jquery-1.12.4.js"></script>
     <script>
+        // 全选
         $('#allChoise').click(function () {
             $(':checkbox').prop('checked',true);
         });
+        // 反选
         $('#rChoise').click(function () {
             $(':checkbox').each(function () {
                 if($(this).prop('checked')){
@@ -77,13 +79,16 @@
                 }
             })
         });
+        // 取消
         $('#cancelChoise').click(function () {
             $(':checkbox').prop('checked',false);
         });
-        
+        // 点击label会变色，改变table的形状并变成编辑模式，再次点击会变回列表
         $('#edit').click(function () {
+            // 添加点击变色及变形状的字典
             var args1 = [{'backgroundColor':'darkgray'},{ 'border':'1', 'height':'110px', 'width':'170px'}];
             var args2 = [{'backgroundColor':'coral'},{ 'border':'4', 'height':'200px', 'width':'250px'}];
+            // 通过判定label的背景色来决定使用哪个变量
             if (($(this).css('backgroundColor')) == 'rgb(169, 169, 169)'){
                 changeClass_table(this,args2);
             }else{
@@ -96,22 +101,9 @@
             $(This).css(args[0]);
             // table 外观变化
             $('#tab').css(args[1]);
-            // 两个tr删除，复制其中的数据，转换为一个input和一个select
-            // 1、获取数据
-            var i = 1;
-            $(':checkbox').parent().siblings().each(function () {
-                // console.log($(this).text());
-                if (i == 3){
+            // 两个tr内容删除，复制其中的数据，添加一个input和一个select
+            // i 是用于获取点击次数
 
-                    i++;
-                }else{
-                    var temp = $(this);
-                    var tx = temp.text();
-                    temp.text('');
-                    temp.append('<input type="text" value="' + tx + '">');
-                }
-                i++;
-            });
         }
     </script>
 </body>
